@@ -8,6 +8,7 @@ import logging
 from common import contents
 
 def get_logger(name):
+    '''日志级别'''
 
     logger = logging.getLogger(name)
     logger.setLevel('DEBUG')

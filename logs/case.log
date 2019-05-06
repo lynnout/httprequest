@@ -131,3 +131,73 @@
 2019-04-29 18:57:03,660-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码错误
 2019-04-29 18:57:03,770-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码错误
 2019-04-29 18:57:03,771-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 15:12:23,693-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 15:12:23,702-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功get
+2019-05-06 15:12:23,819-ERROR-testcase_login.py-testcase_login-日志信息:报错了'{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}' != '{"status":1,"code":"10001","data":null,"msg":"登录成功"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+?           ^         ^ ^^                      ^^^^^^^^
++ {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+?           ^         ^ ^^                      ^^^^
+
+2019-05-06 15:12:23,819-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 15:12:23,820-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 15:12:23,820-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功post
+2019-05-06 15:12:23,938-ERROR-testcase_login.py-testcase_login-日志信息:报错了'{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}' != '{"status":1,"code":"10001","data":null,"msg":"登录成功"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+?           ^         ^ ^^                      ^^^^^^^^
++ {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+?           ^         ^ ^^                      ^^^^
+
+2019-05-06 15:12:23,938-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 15:12:23,939-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 15:12:23,939-INFO-testcase_login.py-testcase_login-日志信息:开始测试:手机号为空
+2019-05-06 15:12:24,052-INFO-testcase_login.py-testcase_login-日志信息:结束测试手机号为空
+2019-05-06 15:12:24,052-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 15:12:24,052-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 15:12:24,052-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码为空
+2019-05-06 15:12:24,165-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码为空
+2019-05-06 15:12:24,165-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 15:12:24,165-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 15:12:24,165-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码错误
+2019-05-06 15:12:24,280-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码错误
+2019-05-06 15:12:24,281-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:41:29,610-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:41:29,610-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功get
+2019-05-06 16:41:29,752-INFO-testcase_login.py-testcase_login-日志信息:结束测试登录成功get
+2019-05-06 16:41:29,766-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:41:29,767-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:41:29,767-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功post
+2019-05-06 16:41:29,885-INFO-testcase_login.py-testcase_login-日志信息:结束测试登录成功post
+2019-05-06 16:41:29,885-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:41:29,885-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:41:29,885-INFO-testcase_login.py-testcase_login-日志信息:开始测试:手机号为空
+2019-05-06 16:41:30,021-INFO-testcase_login.py-testcase_login-日志信息:结束测试手机号为空
+2019-05-06 16:41:30,021-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:41:30,021-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:41:30,021-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码为空
+2019-05-06 16:41:30,127-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码为空
+2019-05-06 16:41:30,127-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:41:30,127-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:41:30,128-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码错误
+2019-05-06 16:41:30,244-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码错误
+2019-05-06 16:41:30,244-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:47:24,180-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:47:24,180-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功get
+2019-05-06 16:47:24,287-INFO-testcase_login.py-testcase_login-日志信息:结束测试登录成功get
+2019-05-06 16:47:24,287-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:47:24,292-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:47:24,292-INFO-testcase_login.py-testcase_login-日志信息:开始测试:登录成功post
+2019-05-06 16:47:24,406-INFO-testcase_login.py-testcase_login-日志信息:结束测试登录成功post
+2019-05-06 16:47:24,407-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:47:24,411-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:47:24,412-INFO-testcase_login.py-testcase_login-日志信息:开始测试:手机号为空
+2019-05-06 16:47:24,519-INFO-testcase_login.py-testcase_login-日志信息:结束测试手机号为空
+2019-05-06 16:47:24,519-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:47:24,527-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:47:24,527-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码为空
+2019-05-06 16:47:24,635-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码为空
+2019-05-06 16:47:24,636-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理
+2019-05-06 16:47:24,642-INFO-testcase_login.py-testcase_login-日志信息:准备测试前置
+2019-05-06 16:47:24,643-INFO-testcase_login.py-testcase_login-日志信息:开始测试:密码错误
+2019-05-06 16:47:24,752-INFO-testcase_login.py-testcase_login-日志信息:结束测试密码错误
+2019-05-06 16:47:24,752-INFO-testcase_login.py-testcase_login-日志信息:测试后置处理

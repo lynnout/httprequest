@@ -5,7 +5,9 @@
 # @File  : run.py
 
 import unittest
-from testcases import testcase_login,testcase_register,testcase_invest,testcase_recharge
+import sys
+sys.path.append('./') #project根目录地址
+# from testcases import testcase_login,testcase_register,testcase_invest,testcase_recharge
 from common import HTMLTestRunnerNew
 from common import contents
 
