@@ -7,6 +7,7 @@
 import pymysql
 
 class DoMySQL:
+    #数据库初始化
     def __init__(self):
         host = "test.lemonban.com"
         user = "test"
